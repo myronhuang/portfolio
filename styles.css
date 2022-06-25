@@ -244,3 +244,49 @@ footer p {
   display: flex;
   justify-content: center;
 }
+
+/* DARK MODE STYLES */
+
+body {
+  background-color: #121212;
+  border: 1px solid white;
+}
+
+a {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.hero {
+  color: white;
+}
+
+.highlighted {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+}
+
+.nav-link:after {
+  background-color: white;
+}
+
+.tooltip::before {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+}
+
+footer p {
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .footer-box {
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+  }
+}
